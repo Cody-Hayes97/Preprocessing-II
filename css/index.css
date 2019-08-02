@@ -168,6 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
 .head {
   width: 100%;
   margin: 0 auto;
@@ -203,6 +208,7 @@ img {
 @media (max-width: 500px) {
   .head .navigation {
     margin: 0;
+    width: 80%;
   }
 }
 .head .navigation nav {
@@ -230,7 +236,7 @@ img {
 @media (max-width: 500px) {
   .head .navigation li {
     margin: 0% 0%;
-    padding: 10px 45px;
+    padding: 10px 20px;
   }
 }
 .head .navigation .help {
@@ -244,7 +250,7 @@ img {
 }
 @media (max-width: 800px) {
   .head .logo {
-    margin: 0;
+    margin-left: 5%;
   }
 }
 @media (max-width: 500px) {
@@ -266,6 +272,11 @@ img {
 .footcont {
   width: 100%;
   margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .footcont {
+    width: 100%;
+  }
 }
 .home .content-section {
   margin: 0px 0;
@@ -301,7 +312,7 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-section .img-content {
-    width: 200%;
+    width: 100%;
     padding-left: 2%;
   }
 }
@@ -326,6 +337,7 @@ img {
     position: absolute;
     margin-top: 3%;
     margin-bottom: 5%;
+    width: 90%;
   }
 }
 .home .inverse-content .img-content {
@@ -334,8 +346,8 @@ img {
 }
 @media (max-width: 500px) {
   .home .inverse-content .img-content {
-    margin-top: 45%;
-    padding-left: 2%;
+    margin-top: 65%;
+    padding-left: 0%;
   }
 }
 .home .content-destination {
@@ -376,7 +388,7 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
-    width: 85%;
+    width: 80%;
     padding-left: 5%;
   }
 }
@@ -396,7 +408,7 @@ img {
 }
 @media (max-width: 500px) {
   .cta {
-    width: 95%;
+    width: 100%;
     margin-left: 0%;
     margin-bottom: 6%;
   }
