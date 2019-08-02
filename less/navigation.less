@@ -8,8 +8,19 @@
   border-bottom: 2px dashed silver;
   font-weight: bold;
   padding-bottom: 1%;
+
+  @media @mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .navigation {
     margin-right: 28.5%;
+    @media @mobile {
+      margin: 0;
+    }
     nav {
       color: black;
       width: 100%;
@@ -25,6 +36,10 @@
       margin: 0% 3%;
       padding: 20px;
       font-weight: bold;
+      @media @mobile {
+        margin: 0% 0%;
+        padding: 10px 45px;
+      }
     }
     .help {
       width: 130%;
@@ -35,5 +50,9 @@
   }
   .logo {
     margin-left: 29%;
+
+    @media @mobile {
+      margin-left: 0%;
+    }
   }
 }
