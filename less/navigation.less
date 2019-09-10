@@ -1,1 +1,73 @@
 // Navigation Styles here
+.head {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3%;
+  border-bottom: 2px dashed silver;
+  font-weight: bold;
+  padding-bottom: 1%;
+
+  @media @tablet {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  @media @mobile {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation {
+    margin-right: 28.5%;
+    @media @tablet {
+      margin: 0;
+    }
+    @media @mobile {
+      margin: 0;
+      width: 80%;
+    }
+    nav {
+      color: black;
+      width: 100%;
+      font-size: 150%;
+    }
+    ul {
+      display: flex;
+      flex-flow: row nowrap;
+    }
+    li {
+      color: black;
+      text-decoration: none;
+      margin: 0% 3%;
+      padding: 20px;
+      font-weight: bold;
+      @media @tablet {
+        padding: 10px 50px;
+        margin-right: 10%;
+      }
+      @media @mobile {
+        margin: 0% 0%;
+        padding: 10px 20px;
+      }
+    }
+    .help {
+      width: 130%;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
+  .logo {
+    margin-left: 29%;
+    @media @tablet {
+      margin-left: 5%;
+    }
+    @media @mobile {
+      margin-left: 0%;
+    }
+  }
+}
